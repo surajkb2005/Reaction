@@ -2,15 +2,17 @@ import Component from './components/Component';
 import Basics from './components/Basics';
 import Cards from './components/Cards';
 import PropsCards from './components/PropsCards';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   const list = ['mango', 'pineapple', 'santra'];
-  
+
   return (<>
-    <PropsCards name={'apple'} />
-    <PropsCards name={'banana'} />
-    <PropsCards name={'orange'} />
-    {list.map((item,index) => (<PropsCards key={index} name={item}/>))}
+    <UserGreeting loggedin={true} />
+    <UserGreeting loggedin={true} name='John' />
+    <UserGreeting loggedin={false} />
+    <UserGreeting loggedin={false} name='John' />
+    <UserGreeting />
   </>)
 }
 

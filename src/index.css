@@ -1,0 +1,37 @@
+.display{
+  text-align: center;
+  font-size: 20px;
+  padding : 25px 10px;
+  margin: 2px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:lightskyblue
+}
+.addbutton{
+  text-align: center;
+  font-size: 20px;
+  padding : 5px 10px;
+  margin: 2px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+  background-color:chartreuse
+}
+.removebutton{
+  text-align: center;
+  font-size: 20px;
+  padding : 5px 10px;
+  margin: 2px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+  background-color:crimson;
+}
+
+.card-container {
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+}

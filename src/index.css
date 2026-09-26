@@ -44,4 +44,18 @@
   justify-content: center;
   flex: 1;
   padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(62, 102, 221);
+  border-radius: 10px;
+  height : 300px;
+  width: 400px;
+  margin: 20px auto;
+  flex: 1;
+}
+.card-image{
+  width: 150px;
+  height: 150px;
+  object-position: center;
+  border-radius: 50%;
 }

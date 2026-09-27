@@ -110,3 +110,45 @@ li{
   text-align: center;
   
 }
+
+.stopwatch{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  text-align: left;
+  align-items: left;
+}
+.display-timer{
+  padding: 50px;
+  margin: 10px;
+  border: 1px solid black;
+  justify-content: center;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  width: 400px;
+}
+
+.controls{
+  text-align: center;
+  font-size: 20px;
+  padding : 5px 10px;
+  margin-left: 20px;
+  margin-right: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100px;
+  color: white;
+  font-weight: 800;
+}
+
+.start-timer{
+  background-color:rgb(13, 255, 0);
+}
+.stop-timer{
+  background-color:rgb(249, 96, 96);
+}
+.reset-timer{
+  background-color:rgb(63, 207, 240);
+}
